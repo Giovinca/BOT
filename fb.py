@@ -894,7 +894,7 @@ def main():
   global target_id
 
   try:
-	cek = raw_input(R + GiovincaID + W +' >> ')
+	cek = raw_input(R + 'GiovincaID' + W +' >> ')
 
 	if cek.lower() == 'get_data':
 		if len(jml) == 0:
